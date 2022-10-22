@@ -35,7 +35,8 @@ def modbusAccess():
 
     vars_inmediate = ['pv_01_voltage', 'pv_01_current', 'pv_02_voltage','pv_02_current', 'input_power', 'grid_voltage', 
     'grid_current', 'active_power', 
-    'grid_A_voltage', 'active_grid_A_current', 'power_meter_active_power']
+    'grid_A_voltage', 'active_grid_A_current', 'power_meter_active_power',
+                     'ESU_soc', 'ESU_charging', 'ESU_discharging']
 
     vars = ['day_active_power_peak', 'efficiency', 'internal_temperature', 'insulation_resistance', 'device_status', 'fault_code', 'accumulated_yield_energy',
     'daily_yield_energy', 'grid_exported_energy', 'grid_accumulated_energy']
